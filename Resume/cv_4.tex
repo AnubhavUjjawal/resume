@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Anubhav Ujjawal} % Your name
+\address{\href{mailto:anubhav.u16@iiits.in}{anubhav.u16@iiits.in}, \href{mailto:anubhavujjawal@gmail.com}{anubhavujjawal@gmail.com}}
+\address{(+91)7550130647} % Your phone number and email
+%\address{Ramana Road, Gaya, Bihar 823001} % Your address
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Information Technology, Sri City} \hfill {\em August 2016 - Present} 
+\\ Junior Undergraduate \hfill { CGPA: 8.7/10}
+\\ Department of Computer Science and Engineering  
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages  &  C/C++, Python, JavaScript, Dart, LaTex, HTML \\
+Frameworks \& Databases & Django, Vue.js, React.js, jQuery, Bootstrap, Dialogflow, \\ & MongoDB, SQL, Flutter, ExpressJS \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{IIIT Sri City}{August 2018 - December 2018}{Undergraduate Teaching Assistant}{}
+\item Assisted the course instructor during the lab and tutorial sessions of ``Overview of Computers" Course. 
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{SSS Web Research}{2017 - Current}{Full Stack Developer}{}
+\item Worked with a team of 7 people and did rapid development of ERP systems for educational institutions.
+\item Built on a report generator to generate reports of performance, attendance, basic information of students.
+\item Created a panel for smooth handling of Examinations in the institutions, from creation of exams to assigning marks to students and publishing the results.
+\item Worked on other crucial functionalities such as library management, attendance, assignments and others.
+\end{rSubsection}
+
+\begin{rSubsection}{EaseAssist Solutions Limited}{June 2017 - July 2017}{Backend Developer Intern}{}
+\item Worked on the product, Refier and integrated OAuth2 login methods.
+\item Used django-notify-x to add a notification system for their system. Used Observable pattern to send notifications to the users. 
+\item Wrote code to import and export data from excel sheets into the database, and handle errors as well.
+\item Used \textit{Django-haystack} with Elasticsearch and integrated modular search for some parts of the system.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Achievements} \itemsep -2pt
+\item Won $1^{st}$ prize in TopBot (a chatbot making event), $2^{nd}$ prize in MedTech Hackathon (A Machine Learning based Hackathon), $3^{rd}$ prize in Appathon in Techfesia 2018.
+\item Volunteered to create the Techfesia 2018 mobile app, which went on to become the $6^{th}$ most trending app in the events category.
+%\item Gave multiple talks on behalf of Gradient, programming club of IIITS on web development topics. 
+\item Became the $1^{st}$ development head of Gradient, programming club of IIITS.  
+\item Rewarded with a paid domain for a year from \textit{Codechef} for qualifying in eliminator round of SnackDown
+2017.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Relevant Courses}
+% \itab{\textbf{Core Courses}} \tab{}  \tab{\textbf{Other Courses}}
+% \\ \itab{Fluid Mechanics \& its applications } \tab{}  \tab{Computational Methods in Engineering}
+% \\ \itab{Thermodynamics} \tab{}  \tab{Fundamental of Computing} 
+% \\ \itab{Heat Transfer \& its applications} \tab{}  \tab{Probability and Statistics} 
+% \\ \itab{Mass Transfer \& its applications} \tab{} \tab{Calculus \& Linear Algebra}
+% \\ \itab{Transport Phenomena (ongoing)} \tab{} \tab{Introduction to Mechanics}
+% % \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
+
+% \end{rSection}
+\begin{rSection}{PROJECTS}
+
+\begin{rSubsection}{\href{https://github.com/anuragiiits/Water-Management-System}{Water Management System for Plants}}{}{}{}
+\item The project features a Water Management System using Raspberry Pi and Arduino along with sensors for monitoring the plants. 
+\item It allowed automatic/manual and efficient watering of the plants, depending on the current condition of soil, plants and weather, from a web based dashboard or a web-view in mobile app.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/AnubhavUjjawal/dbmsMini-1}{Subtitles sharing Web application}}{}{}{}
+\item The project features a subtitles sharing website like \href{https://www.yifysubtitles.com/}{Yify Subtitles}. 
+\item Used MySQL with Express.js and its middlewares as backend, Bootstrap as front-end. Used passport.js with Google OAuth for Authentication.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://www.amazon.in/Anubhav-Ujjawal-Latest-HackerNews-Articles/dp/B07K1X4WXW}{Alexa Skills Developer}, \href{https://assistant.google.com/services/a/uid/000000b6cb59ef4f?hl=en-GB}{Google Actions Developer}}{}{}{}
+\item Developed Alexa Skills and Google actions to get free credits and T-Shirt on AWS and GCP and more importantly, have some fun. 
+\end{rSubsection}
+\end{rSection}
+
+
+
+
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Techfesia 2018}{June 2018 - September 2018}{App Development and Support}{IIIT Sri City}
+\item Spearheaded a team of 10 people to successfully create the Techfesia website and app.
+\item Managed the database, Django server and added cron jobs for sending notifications to the participants.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Development Head, Gradient}{}{}{}
+\item Coordinating with Gradient's committee and planning internal events and talks for $1^{st}$ and $2^{nd}$ year students.
+\item Organized sessions on Web Development and App Development for over 100 students. 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+% \item Secured Gold in M.P. State Throw Ball competition and represented district in State Hand Ball competition
+% \item Represented Institute in Udghosh’13 and secured second prize in Kho-Kho intramurals
+% \item Secured second prize in Dance Drama competition in Galaxy’14, inter hall cultural competition of IIT Kanpur
+% \item Won second prize in Electromania, circuit game designing competition in Takneek’13, inter hall technical festival of IIT Kanpur
+ % \item Member, Athletics Team, IIT Kanpur. Attended Summer Sport Camp as a long jumper.
+%\item Trained and disciplined in National Cadet Corps (NCC), IIT Kanpur for a year.
+ %\item  Participated in Vijyoshi Camp 2012 organized at Indian Institute of Science, Bangalore.
+ %\item Won 2nd position in Kho-Kho in Intramurals conducted by Physical Education Section, IIT Kanpur.
+ %\item Pursued French as second language during secondary school from Grade 6 to Grade 10. Also participated in French Song Competition and French G.K. Quiz in Class 10th. %
+
+% \end{rSection}
+
+\end{document}
